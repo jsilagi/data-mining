@@ -1,0 +1,13 @@
+The code is written in Python, in the form of a Jupyter notebook.
+The cells can be run in order (from the top to bottom) in order to get the desired results.
+
+Note that the first cell loads in both the required libraries, as well as the data.
+Specifically, the last line in the first cell "df = pd.read_excel ... " may need to have the parameters adjusted in order to find where the Concrete_Data.xls file is located.
+Additionally, the required libraries for the program are pandas, numpy, matplotlib, and sklearn.
+
+The cells titled "Gradient descent and regression for univariate models" and "Gradient descent and regression for multivariate model" print out the results of the models.
+For the 8 univariate models, the code will print out the name of the variable, the b and m values, the mse, the training and testing R-squared values, and the plot of the training data with the model on top.
+For the multivariate model, the code will print out the b value, the b value, the vector of m value, the mse, and the training and testing R-squared values.
+
+Everything underneath the "Extra credit: pre-processing the data" header relates to the extra credit portion.
+This includes creating histograms to compare distributions of the variables, and replications of the univariate and multivariate results from above.
